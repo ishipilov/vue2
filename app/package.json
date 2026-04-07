@@ -1,0 +1,24 @@
+{
+  "name": "vue2-simple",
+  "scripts": {
+    "start": "webpack serve"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "bootstrap": "^4.6.2",
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.23",
+    "popper.js": "^1.16.1",
+    "vue": "^2.7.16"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.4",
+    "html-webpack-plugin": "^5.6.0",
+    "vue-loader": "^15.11.1",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.7.16",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  }
+}
