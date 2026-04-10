@@ -3,7 +3,7 @@ services:
     build: .
     container_name: vue2-app
     ports:
-      - "6080:8080"
+      - "7080:8080"
     volumes:
       - ./app:/app
       - /app/node_modules
