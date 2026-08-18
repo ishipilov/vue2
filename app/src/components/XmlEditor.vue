@@ -4,6 +4,8 @@
     <div class="card">
       <div class="card-body">
 
+        <button type="button" class="btn btn-primary" @click="testWait(2000)">Wait 2 seconds</button>
+
       </div>
     </div>
 
@@ -25,7 +27,11 @@ export default {
   },
   created: function () { this.id = this.$options.name + this._uid },
   methods: {
-		wait: function (data) { this.$emit('wait', data); }
+		wait: function (data) { this.$emit('wait', data); },
+    testWait: function (duration) {
+      this.wait(true);
+      setTimeout(() => this.wait(false), duration);
+    }
   }
 };
 </script>
