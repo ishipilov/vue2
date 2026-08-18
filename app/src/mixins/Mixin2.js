@@ -1,5 +1,5 @@
 export default {
-  methods: {,
+  methods: {
 		isUrl: function (str) {
 			let url
 			try { url = new URL(str) } catch (e) { return false }
